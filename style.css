@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-body {
-    height: 100%; /* Ensures the body takes up the full viewport height */
-    margin: 0; /* Removes default margins */
+html, body {
     font-family: 'Open Sans', serif;
     text-shadow: 1px 1px #00000069;
-
-    display: flex; /* Enables Flexbox */
-    justify-content: flex-start; /* Horizontally aligns text to the left */
-    align-items: center; /* Vertically centers the text */
-    height: 100vh; /* Ensures the container fills the viewport height */
-    padding: 20px; /* Optional padding */
-    text-align: left; /* Explicitly aligns text to the left */
+    height: 100%; /* Full height of the viewport */
+    margin: 0; /* Remove default margins */
+    display: flex; /* Use Flexbox for alignment */
+    justify-content: flex-start; /* Horizontally align text to the left */
+    align-items: center; /* Vertically center the content */
+    padding: 20px; /* Optional: Add some padding */
+    text-align: left; /* Ensure the text content is aligned left */
+    background-color: #f0f0f0; /* Optional: Add a background color */
 }
