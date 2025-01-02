@@ -11,8 +11,5 @@ html, body {
     align-items: center; /* Center items horizontally (if needed) */
     padding: 20px; /* Optional: Add padding */
     text-align: left; /* Ensure text is aligned to the left */
-}
-
-p {
     width: 100%; /* Ensure the text can take full width */
 }
