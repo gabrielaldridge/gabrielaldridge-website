@@ -6,5 +6,6 @@ html, body {
     margin-left: 10%;
     margin-right: 10%;
     text-align: left;
-    line-height: 2;
+    line-height: 1.6;
+    letter-spacing: 0.04em;
 }
