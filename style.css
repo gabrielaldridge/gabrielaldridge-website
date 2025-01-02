@@ -7,7 +7,5 @@ body {
     display: flex; /* Enables Flexbox */
     justify-content: flex-start; /* Horizontally aligns text to the left */
     align-items: center; /* Vertically centers the text */
-    height: 100vh; /* Ensures the container fills the viewport height */
-    padding: 20px; /* Optional padding */
     text-align: left; /* Explicitly aligns text to the left */
 }
