@@ -3,13 +3,5 @@
 html, body {
     font-family: 'Open Sans', serif;
     text-shadow: 1px 1px #00000069;
-    height: 100%; /* Full height of the viewport */
-    margin: 0; /* Remove default margins */
-    display: flex; /* Use Flexbox for alignment */
-    flex-direction: column; /* Stack elements vertically */
-    justify-content: center; /* Vertically center the content */
-    align-items: center; /* Center items horizontally (if needed) */
-    padding: 20px; /* Optional: Add padding */
-    text-align: left; /* Ensure text is aligned to the left */
-    width: 100%; /* Ensure the text can take full width */
+    text-align: center;
 }
