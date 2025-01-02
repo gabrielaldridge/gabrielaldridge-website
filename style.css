@@ -6,9 +6,9 @@ html, body {
     height: 100%; /* Full height of the viewport */
     margin: 0; /* Remove default margins */
     display: flex; /* Use Flexbox for alignment */
-    justify-content: flex-start; /* Horizontally align text to the left */
-    align-items: center; /* Vertically center the content */
-    padding: 20px; /* Optional: Add some padding */
-    text-align: left; /* Ensure the text content is aligned left */
-    background-color: #f0f0f0; /* Optional: Add a background color */
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Vertically center the content */
+    align-items: flex-start; /* Horizontally align items to the left */
+    padding: 20px; /* Optional: Add padding */
+    text-align: left; /* Ensure text alignment is left */
 }
