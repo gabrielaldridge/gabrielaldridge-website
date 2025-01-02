@@ -2,6 +2,12 @@
 
 body {
     font-family: 'Open Sans', serif;
-    text-align: center;
     text-shadow: 1px 1px #00000069;
+
+    display: flex; /* Enables Flexbox */
+    justify-content: flex-start; /* Horizontally aligns text to the left */
+    align-items: center; /* Vertically centers the text */
+    height: 100vh; /* Ensures the container fills the viewport height */
+    padding: 20px; /* Optional padding */
+    text-align: left; /* Explicitly aligns text to the left */
 }
